@@ -17,6 +17,13 @@ body{
     background-color: #EFEFEF;
 }
 
+.slider-container{
+    max-width: 1120;
+    width: 100%;
+    background-color: grey;
+    padding: 40px;
+}
+
 .slider-conteudo{
 margin: 0 40px;
 
