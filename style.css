@@ -1,0 +1,69 @@
+/* Fonte Poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFEF;
+}
+
+.slider-conteudo{
+margin: 0 40px;
+
+}
+
+.card{
+    width: 320px;
+    border-radius: 25px;
+    background-color: #FFF;
+}
+
+.imagem-conteudo, .card-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.imagem-conteudo{
+    
+}
+
+.card-imagem{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+}
+
+.card-imagem .card-img{
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070F4; 
+} 
+
+.nome{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.descricao{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
