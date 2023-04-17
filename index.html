@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
+<!-- CSS Swiper -->
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- CSS da página -->
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Em Nome do Amor</title>
 </head>
 <header>
@@ -14,10 +19,11 @@
     </header>
 
 <body>
-    <div class="slider-container">
+    <div class="swiper slider-container  ">
         <div class="slider-conteudo">
-            <div class="card-wrapper">
-                <div class="card">
+            <div class="card-wrapper swiper-wrapper">
+                <!-- card -->
+                <div class="card swiper-slide">
                     <div class="imagem-conteudo">
                     <span class="overlay"></span>
                         <div class="card-imagem">
@@ -33,7 +39,16 @@
                 </div>
             </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+
     </div>
 
 </body>
+<!-- JS Swiper  -->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!-- JavaScript Geral -->
+<script src="js/script.js"></script>
 </html>

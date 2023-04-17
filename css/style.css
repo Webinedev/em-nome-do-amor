@@ -29,8 +29,12 @@ margin: 0 40px;
 
 }
 
+/* .card-wrapper{
+    display: flex;
+    flex-direction: row;
+} */
+
 .card{
-    width: 320px;
     border-radius: 25px;
     background-color: #FFF;
 }
@@ -117,3 +121,4 @@ margin: 0 40px;
 .botao:hover{
     background: #265DF2;
 }
+
