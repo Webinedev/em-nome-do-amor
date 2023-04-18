@@ -29,12 +29,13 @@ margin: 0 40px;
 
 }
 
-/* .card-wrapper{
+.card-wrapper{
     display: flex;
-    flex-direction: row;
-} */
+}
 
 .card{
+    width: 320px;
+    margin-right: 10px;
     border-radius: 25px;
     background-color: #FFF;
 }
