@@ -1,185 +1,57 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--<title>Responsive Card Slider</title>-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Em Nome do Amor</title>
+</head>
+<header>
+    <nav>
+        <h1 class="titulo">Em Nome do Amor</h1>
+    </nav>
+</header>
+<body>
+    <div class="caixa">
+        <h1>Dê uma chance para seu coração!</h1>
+        <p>Hoje pode ser o seu dia! Aproveite para conhecer novas pessoas. O seu amor pode estar mais perto do que imagina...</p>
+    </div>
 
-        <!-- Swiper CSS -->
-        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <section >
+        <div class="conheca">
+            <h1>Conheça quem está aqui com você!</h1>
+            <p>Viu aquela pessoa e quer saber um pouco mais sobre ela antes de conversar? Dê uma espiadinha!</p>
+        </div>
+        <div class="escolha">
+        <div class="card">
+            <img class="card-imagem" src="imagens/meninos.jpg" alt="">
+            <a href="meninos.html">
+          <button id="verMeninos">Ver Meninos</button></a>
+        </div>
+        <div class="card">
+            <img class="card-imagem" src="imagens/meninas.jpg" alt="">
+            <a href="meninas.html">
+                <button id="verMeninas">Ver Meninas</button>
+            </a>        
+        </div>
+    </div>
+    </section>
+    
+</body>
+<footer>
+    <div class="rodape-titulo">
+        <h1>Realização</h1>
+    </div>
+    <div class="igrejas">
+        <ul>
+            <li>IASD Brooklin</li>
+            <li>IASD Moema</li>
+            <li>IASD Portal da Hípica</li>
+            <li>IASD Vila Olímpia</li>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/style.css">
-                                        
-    </head>
-    <body>
-        <section>
-            <div class="slide-container swiper">
-                <div class="slide-content">
-                    <div class="card-wrapper swiper-wrapper">
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-    
-                                <div class="card-image">
-                                    <img src="imagens/mauricio.jpg" alt="" class="card-img">
-                                </div>
-                            </div>
-    
-                            <div class="card-content">
-                                <h2 class="name">Maurício Lima</h2>
-                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-    
-                                <button class="button">View More</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-    
-                                <div class="card-image">
-                                    <img src="imagens/andres.jpg" alt="" class="card-img">
-                                </div>
-                            </div>
-    
-                            <div class="card-content">
-                                <h2 class="name">Andres Peralta</h2>
-                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-    
-                                <button class="button">View More</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-    
-                                <div class="card-image">
-                                    <img src="imagens/desbra-uldocy.jpg" alt="" class="card-img">
-                                </div>
-                            </div>
-    
-                            <div class="card-content">
-                                <h2 class="name">Udolcy Zucovski</h2>
-                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-    
-                                <button class="button">View More</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-    
-                                <div class="card-image">
-                                    <img src="imagens/eric.jpg" alt="" class="card-img">
-                                </div>
-                            </div>
-    
-                            <div class="card-content">
-                                <h2 class="name">Eric Pascini</h2>
-                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-    
-                                <button class="button">View More</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-    
-                                <div class="card-image">
-                                    <img src="imagens/samuel camilo.jpg" alt="" class="card-img">
-                                </div>
-                            </div>
-    
-                            <div class="card-content">
-                                <h2 class="name">Samuel Camilo</h2>
-                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-    
-                                <button class="button">View More</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-    
-                                <div class="card-image">
-                                    <img src="imagens/ted.jpg" alt="" class="card-img">
-                                </div>
-                            </div>
-    
-                            <div class="card-content">
-                                <h2 class="name">Ted Wilson</h2>
-                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-    
-                                <button class="button">View More</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-    
-                                <div class="card-image">
-                                    <img src="imagens/larroca.jpg" alt="" class="card-img">
-                                </div>
-                            </div>
-    
-                            <div class="card-content">
-                                <h2 class="name">Romualdo Larroca</h2>
-                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-    
-                                <button class="button">View More</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-    
-                                <div class="card-image">
-                                    <img src="imagens/jeferson.jpg" alt="" class="card-img">
-                                </div>
-                            </div>
-    
-                            <div class="card-content">
-                                <h2 class="name">Jeferson Silva</h2>
-                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-    
-                                <button class="button">View More</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-    
-                                <div class="card-image">
-                                    <img src="imagens/stanley.jpg" alt="" class="card-img">
-                                </div>
-                            </div>
-    
-                            <div class="card-content">
-                                <h2 class="name">Stanley Arco</h2>
-                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-    
-                                <button class="button">View More</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-            
-                <div class="swiper-button-next swiper-navBtn"></div>
-                <div class="swiper-button-prev swiper-navBtn"></div>
-                <!-- <div class="swiper-pagination"></div> -->
-            </div>
-        </section>
-        
-
-    </body>
-
-    <!-- Swiper JS -->
-    <script src="js/swiper-bundle.min.js"></script>
-
-    <!-- JavaScript -->
-    <script src="js/script.js"></script>
+        </ul>
+    </div>
+</footer>
 </html>
